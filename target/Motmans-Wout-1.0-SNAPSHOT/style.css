@@ -1,0 +1,112 @@
+/* font-family: 'Rubik', sans-serif;
+font-family: 'Shizuru', cursive;
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+html{
+    background-color: #efdbba;
+}
+header {
+    text-align: center;
+    background-color: #a0afbb;
+}
+h1 {
+    font-family: 'Shizuru', cursive;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: #a0afbb;
+}
+nav ul {
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+nav ul li {
+    padding: 1rem 0;
+    width: calc(100%/3);
+}
+nav ul .currentpage{
+    border: 5px solid black;
+}
+nav ul #red {
+    background-color: red;
+}
+nav ul #gold {
+    background-color: gold;
+}
+nav ul #green {
+    background-color: green;
+}
+
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+main article p {
+    text-align:justify;
+    font-size: 1.1rem;
+    padding: 0 1rem 2rem 1rem;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.30);
+}
+th {
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+}
+tr {
+    text-align: left;
+}
+th, td{
+    padding: 12px 15px;
+}
+.pasaan {
+    text-align: center;
+}
+label {
+    font-size: 1.5rem;
+}
+label, input, button {
+    margin: 1rem 1rem;
+    width: 95%;
+}
+input {
+    border: none;
+    background-color: #f7f7fa;
+    border-radius: 15px;
+    text-align: center;
+}
+.invis {
+    display: none;
+}
+button {
+    height: 2rem;
+}
+input {
+    height: 2rem;
+}
